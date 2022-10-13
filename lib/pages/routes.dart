@@ -1,3 +1,4 @@
+import 'package:fl_11_bandname/pages/status.dart';
 import 'package:flutter/material.dart';
 
 import 'home.dart';
@@ -25,6 +26,13 @@ class AppRoutes {
       route: 'home',
       name: 'Home Screen',
       screen: const HomeScreen(),
+      icon: Icons.home,
+      color: Colors.red,
+    ),
+    MenuOptions(
+      route: 'status',
+      name: 'Status Page',
+      screen: const StatusPage(),
       icon: Icons.home,
       color: Colors.red,
     ),
